@@ -1,0 +1,166 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+html {
+    width: 98vw;
+    height: auto;
+    background-color: black;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+header {
+    border: 1px solid red;
+    width: 100%;
+    height: 100px;
+
+    background: url('../images/_feda0ebb-048a-43bb-bb58-97153c2789e1.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: botton;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: text-decoration 1s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.img {
+    width: 10%;
+    height: 100%;
+    background: url('../images/_d9dfbf20-09a9-48b3-9481-9d122cdebd08.jpeg') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.link-fora {
+    width: 20%;
+    height: auto;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.link-fora ul {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+    list-style: none;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.conteudo {
+    width: 60%;
+    height: auto;
+}
+
+.link-dentro-pag {
+    width: 20%;
+    height: auto;
+}
+
+.conteudo {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo h1 {
+    text-align: center;
+}
+
+.conteudo h2 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.hist p{
+    padding-top: 20px;
+}
+
+details summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+details ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+details li {
+    padding-bottom: 10px;
+}
+
+summary {
+    list-style-type: '♣';
+    color: #ffffff;
+}
+
+details[open] summary {
+    list-style-type: '♦';
+}
