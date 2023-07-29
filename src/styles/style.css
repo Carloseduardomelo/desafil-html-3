@@ -76,6 +76,10 @@ p {
     border-radius: 50%;
 }
 
+#img2{
+    width: 100%;
+}
+
 .link-fora {
     width: 20%;
     height: auto;
